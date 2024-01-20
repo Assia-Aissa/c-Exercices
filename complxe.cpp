@@ -5,6 +5,7 @@ using namespace std;
 class complexe{
     float re;
     float im;
+    int a;
 public:
     complexe();
     complexe(float,float);
@@ -108,14 +109,14 @@ int main()
 {
     complexe a(7,-3), b(-5,2);
     complexe c(b);
-    //c=a;
-    //cout<<a;
+    c=a;
+    cout<<a;
     cout<<c<<endl;
-//cout<<c;
+cout<<c;
     c=a*b;
     cout<<c;
-    //b=somme(a,c);
-   // cout<<b;
+    b=somme(a,c);
+    cout<<b;
 
     return 0;
 }
