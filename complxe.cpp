@@ -109,6 +109,9 @@ int main()
 {
     complexe a(7,-3), b(-5,2);
     complexe c(b);
+	complexe d r ;
+	d=b;
+		r=d*b;
     c=a;
     cout<<a;
     cout<<c<<endl;
@@ -117,6 +120,7 @@ cout<<c;
     cout<<c;
     b=somme(a,c);
     cout<<b;
+	
 
     return 0;
 }
