@@ -5,7 +5,7 @@ using namespace std;
 class complexe{
     float re;
     float im;
-    int a;
+
 public:
     complexe();
     complexe(float,float);
