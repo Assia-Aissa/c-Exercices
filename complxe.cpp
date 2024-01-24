@@ -61,6 +61,7 @@ complexe& complexe::operator=(const complexe &a){
     im=a.im;
    }
    return *this;
+	//this is 
 }
 float complexe::norme(){
     float result;
