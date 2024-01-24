@@ -81,6 +81,7 @@ istream& operator>>(istream &in, complexe &b){
     return in;
 }
 ostream& operator<<(ostream &out, const complexe &b){
+	//good now 
 
    if( b.re==0 ){
 
